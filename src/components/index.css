@@ -1,0 +1,43 @@
+body {
+    font-family:  'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+.app {
+    width: 1000px;
+    margin: auto;
+}
+.header {
+    font-size: 36px;
+    text-align: center;
+    margin: 15px;
+}
+.content img {
+    margin: 15px;
+}
+.footer {
+    width: 950px;
+    margin: auto;
+    border-top: 1px solid #CCCCCC;
+    color: #CCCCCC;
+    text-align: center;
+    padding: 12px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+@media only screen and (max-width: 500px){
+    .content img {
+        width: 100%;
+        margin: 30px;
+    }
+    .footer {
+        margin: auto;
+        border-top: 1px solid #CCCCCC;
+        color: #CCCCCC;
+        text-align: center;
+        padding: 12px;
+    }
+}

@@ -15,7 +15,7 @@ function App() {
   }, [dispatch]);
 
   return (
-    <Route path=" /:id?">
+    <Route path="/:id?">
       <div className="app">
         <Header />
         <Modal />

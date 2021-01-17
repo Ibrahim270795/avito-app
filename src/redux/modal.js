@@ -3,15 +3,15 @@ const initialState = {
   loading: false,
 };
 
-const imagesReducer = (state = initialState, action) => {
+const modalReducer = (state = initialState, action) => {
   switch (action.type) {
-    case 'images/load/start':
+    case 'modal/load/start':
       return {
         ...state,
         loading: true,
       };
 
-    case 'images/load/success':
+    case 'modal/load/success':
       return {
         ...state,
         items: action.payload,
@@ -23,4 +23,4 @@ const imagesReducer = (state = initialState, action) => {
   }
 };
 
-export default imagesReducer;
+export default modalReducer;
